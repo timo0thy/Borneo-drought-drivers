@@ -1,5 +1,19 @@
-name: example-environment
+name: Borneo-drought
 channels:
   - conda-forge
 dependencies:
-  - iris==3.0.2
+  - python=3.8
+  - jupyter
+  - ipywidgets
+  - ipykernel
+  - pandas
+  - xarray
+  - xclim
+  - cartopy
+  - bokeh
+  - scikit-learn
+  - jupyterlab
+  - dask
+  - netCDF4
+  - bottleneck
+  - iris
